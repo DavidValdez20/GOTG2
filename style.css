@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Marvel');
+html, body {
+  background-image: url("space.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: "Marvel";
+  color: white;
+}
+
+.container-fluid{
+  padding-top: 6rem;
+}
+
+h1 {font-size: 100px;
+}

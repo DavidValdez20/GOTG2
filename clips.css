@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Marvel');
+html,body {
+  width: 100%;
+  height: 100%;
+  font-family: "Marvel";
+  color: white;
+}
+footer {
+  background-color: rgba(0,0,0,.7);
+  padding: 1.5rem;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.video-container video{
+  min-width: 125%;
+  min-height:125%;
+
+  width: auto;
+  height: auto;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a{
+  text-decoration: none;
+  color: white;
+
+}
+
+a:hover{
+  text-decoration: none;
+  color: rgb(100,100,100);
+}
